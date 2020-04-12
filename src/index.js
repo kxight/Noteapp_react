@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {Router,Route,Link,browserHistory} from 'react-router';
+import About from './components/about';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './components/Home';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Router history={browserHistory}>
+    <Route path="/" component={App}/>
+    <Route path="/about" component={About}/>
+    <Route path="/home" component={Home}/>
+  </Router>,
+  /*<React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>,*/
   document.getElementById('root')
 );
 

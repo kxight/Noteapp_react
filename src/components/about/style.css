@@ -1,0 +1,38 @@
+.header {
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.detail {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+
+}
+
+.dev {
+    text-align: center;
+}
+
+.imgdev {
+    margin-top: 20px;
+    align-self: center;
+    height: 50%;
+	width: 50%;
+}
+
+
+
+
+.container {
+    margin-top: 30px;
+    align-items: center;
+	justify-content: center;
+    
+}
