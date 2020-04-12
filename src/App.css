@@ -12,7 +12,7 @@
 	 pointer-events: none;
 }
  .App-header {
-	 margin-top: 0px;
+
 	 background-color: #282c34;
 	 min-height: 100vh;
 	 display: flex;
@@ -93,31 +93,26 @@
 	 margin-right: 3em;
 	 margin-left: 3em;
 }
- .btn {
-	
-	 font-size: 21px;
-	 padding: 5px 20px;
-	 border: 0;
-	 background-color: #03090c;
-	 color: #fff;
-	 border-radius: 3px;
-	 transition: all 250ms ease-in-out;
-	 cursor: pointer;
+
+
+.btn {
+	font-size: 21px;
+	padding: 5px 20px;
+	border: 0;
+	background-color: #030507;
+	color: #fff;
+	border-radius: 3px;
+	transition: all 250ms ease-in-out;
+	cursor: pointer;
 }
- .btn:hover {
-	 background-color: #01090e;
+.btn:hover {
+	background-color: #020608;
 }
- .btn:focus {
-	 outline: none;
+.btn:focus {
+	outline: none;
 }
 
- .background-yellow {
-	background-color: #f8c82c;
-  }
-  
-  .background-pink {
-	background-color: #f7a072;
-  }
+ 
   
  
  
