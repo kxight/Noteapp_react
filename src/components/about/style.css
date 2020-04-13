@@ -1,18 +1,35 @@
-.header {
-    margin-top: 50px;
+.heade {
+    
+    line-height: 0.7;
+    margin-left: 90px;
+    font-weight: bold;
+    margin-top: 20px;
     font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    text-align: left;
+}
+
+.head {
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 23px;
     font-family: "Open Sans", sans-serif;
     text-align: center;
 }
 
 .detail {
+    color: white;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    text-indent: 50px;
     padding-top: 20px;
     padding-bottom: 80px;
     margin-right: 80px;
     margin-left: 80px;
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -20,19 +37,29 @@
     text-align: center;
 }
 
+.aqe{
+    align-self: center ;
+}
+
 .imgdev {
     margin-top: 20px;
-    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 50%;
 	width: 50%;
 }
 
 
 
-
 .container {
     margin-top: 30px;
-    align-items: center;
-	justify-content: center;
+    padding-bottom: 50px;
+    
+   width: 80% !important;
     
 }
+
+.bg{
+    background-image: url(./bg2.png);
+  }

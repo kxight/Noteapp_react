@@ -9,7 +9,7 @@ export default class deverlopers extends Component {
         return (
             <div>
                 <div>
-                <p className="header">Developer</p>
+                <p className="head">Web Developers</p>
                  </div>
                  <ReactBootStrap.Container className="container">
                     <ReactBootStrap.Row>

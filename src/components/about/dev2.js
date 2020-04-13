@@ -8,8 +8,9 @@ export default class dev2 extends Component {
         return (
             <div>
                 <ReactBootStrap.Card style={{ width: '18rem' }} >
-                
+                <a href="https://www.facebook.com/nipapornnpmt">
                 <ReactBootStrap.Image src={img} roundedCircle className="imgdev" />
+                </a>
                 <ReactBootStrap.Card.Body>
                 <ReactBootStrap.Card.Title className="dev">Nipaporn Meetubtim</ReactBootStrap.Card.Title>
                 <ReactBootStrap.Card.Text className="dev">

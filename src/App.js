@@ -34,47 +34,22 @@ class App extends React.Component {
     const { isLogginActive } = this.state;
     const current = isLogginActive ? "Register" : "Login";
     const currentActive = isLogginActive ? "login" : "register";
-    return React.createElement(
-      "div",
-      { className: "App" },
-      React.createElement(
-        "div",
-        { className: "login" },
-        React.createElement(
-          "div",
-          { className: "container", ref: ref => this.container = ref },
-          isLogginActive && React.createElement(Login, { containerRef: ref => this.current = ref }),
-          !isLogginActive && React.createElement(Register, { containerRef: ref => this.current = ref })
-        ),
-        React.createElement(RightSide, {
-          current: current,
-          currentActive: currentActive,
-          containerRef: ref => this.rightSide = ref,
-          onClick: this.changeState.bind(this)
-        })
-      )
-    );
+    return React.createElement("div", { className: "App" }, React.createElement("div", { className: "login" }, React.createElement("div", { className: "container", ref: ref => this.container = ref }, isLogginActive && React.createElement(Login, { containerRef: ref => this.current = ref }), !isLogginActive && React.createElement(Register, { containerRef: ref => this.current = ref })), React.createElement(RightSide, {
+      current: current,
+      currentActive: currentActive,
+      containerRef: ref => this.rightSide = ref,
+      onClick: this.changeState.bind(this)
+    })));
   }
 }
 
 const RightSide = props => {
-  return React.createElement(
-    "div",
-    {
-      className: "right-side",
-      ref: props.containerRef,
-      onClick: props.onClick
-    },
-    React.createElement(
-      "div",
-      { className: "inner-container" },
-      React.createElement(
-        "div",
-        { className: "text" },
-        props.current
-      )
-    )
-  );
+  return React.createElement("div", {
+    className: "right-side",
+    ref: props.containerRef,
+    onClick: props.onClick
+  }, React.createElement("div", { className: "inner-container" }, React.createElement("div", { className: "text" }, props.current)));
 };
 
 export default App;
+

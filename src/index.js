@@ -7,12 +7,14 @@ import {Router,Route,Link,browserHistory} from 'react-router';
 import About from './components/about';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home';
+import Profile from './components/Profile';
 
 ReactDOM.render(
   <Router history={browserHistory}>
     <Route path="/" component={App}/>
     <Route path="/about" component={About}/>
     <Route path="/home" component={Home}/>
+    <Route path="/profile" component={Profile}/>
   </Router>,
   /*<React.StrictMode>
     <App />

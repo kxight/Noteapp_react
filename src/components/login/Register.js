@@ -1,45 +1,80 @@
 import React from "react";
 //import regisImg from "../../regis.svg" ;
 
-export  class Register extends React.Component {
+export class Register extends React.Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
     }
 
     render() {
-        return (
-            <div className = "base-container" ref={this.props.containerRef}>
-                <div className="header">Register</div>
-                <div className="content">
-                    <div className="image">
-                        
-                    </div>
-                    <div className="form">
-                        <div className="form-group">
-                            <label htmlFor="username">Username</label>
-                            <input type="text" name="username" placeholder="username"/>
-                        </div>
-                        <div className="form-group">
-                            <label htmlFor="email">Email</label>
-                            <input type="email" name="email" placeholder="email"/>
-                        </div>
-                        <div className="form-group">
-                            <label htmlFor="password">Password</label>
-                            <input type="password" name="password" placeholder="password"/>
-                        </div>
-                        <div className="form-group">
-                            <label htmlFor="password">Confirm Password</label>
-                            <input type="password" name="Confirm password" placeholder="confirm password"/>
-                        </div>
-                    </div>
-                </div> 
-                <div className="footer">
-                    <button type="button" className="btn">
-                        Register
-                    </button>
-                </div>
-            </div>
-        )
+        return React.createElement(
+            "div",
+            { className: "base-container", ref: this.props.containerRef },
+            React.createElement(
+                "div",
+                { className: "header" },
+                "Register"
+            ),
+            React.createElement(
+                "div",
+                { className: "content" },
+                React.createElement("div", { className: "image" }),
+                React.createElement(
+                    "div",
+                    { className: "form" },
+                    React.createElement(
+                        "div",
+                        { className: "form-group" },
+                        React.createElement(
+                            "label",
+                            { htmlFor: "username" },
+                            "Username"
+                        ),
+                        React.createElement("input", { type: "text", name: "username", placeholder: "username" })
+                    ),
+                    React.createElement(
+                        "div",
+                        { className: "form-group" },
+                        React.createElement(
+                            "label",
+                            { htmlFor: "email" },
+                            "Email"
+                        ),
+                        React.createElement("input", { type: "email", name: "email", placeholder: "email" })
+                    ),
+                    React.createElement(
+                        "div",
+                        { className: "form-group" },
+                        React.createElement(
+                            "label",
+                            { htmlFor: "password" },
+                            "Password"
+                        ),
+                        React.createElement("input", { type: "password", name: "password", placeholder: "password" })
+                    ),
+                    React.createElement(
+                        "div",
+                        { className: "form-group" },
+                        React.createElement(
+                            "label",
+                            { htmlFor: "password" },
+                            "Confirm Password"
+                        ),
+                        React.createElement("input", { type: "password", name: "Confirm password", placeholder: "confirm password" })
+                    )
+                )
+            ),
+            React.createElement(
+                "div",
+                { className: "footer" },
+                React.createElement(
+                    "button",
+                    { type: "button", className: "btnl" },
+                    "Register"
+                )
+            )
+        );
     }
 }
+

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Navbar from '../Navbar'
+import LightNav from '../lightNav'
 import "./style.css";
 import About from './About'
 import Dev from './deverlopers'
@@ -7,8 +7,8 @@ import Dev from './deverlopers'
 export default class index extends Component {
     render() {
         return (
-            <div>
-               <Navbar/>
+            <div className="bg">
+               <LightNav/>
                <About/>
                <Dev/>
             </div>

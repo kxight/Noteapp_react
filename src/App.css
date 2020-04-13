@@ -12,15 +12,17 @@
 	 pointer-events: none;
 }
  .App-header {
-
-	 background-color: #282c34;
-	 min-height: 100vh;
-	 display: flex;
-	 flex-direction: column;
-	 align-items: center;
-	 justify-content: center;
-	 font-size: calc(10px + 2vmin);
-	 color: white;
+	
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	
+	
 }
  .App-link {
 	 color: #61dafb;
@@ -41,10 +43,12 @@
 	 align-items: center;
 	 margin-top: 5px;
 	 position: relative;
+	 margin-left:20%;
 	 z-index: 99;
 }
  .login .container {
 	 display: flex;
+	 
 	 justify-content: center;
 	 align-items: center;
 	 background-color: #fff;
@@ -63,7 +67,7 @@
 	 justify-content: center;
 	 height: 80%;
 	 background-color: #08090a;
-	 width: 100%;
+	 width: 80%;
 	 position: absolute;
 	 right: -34%;
 	 border-radius: 6px;
@@ -73,11 +77,11 @@
 	 box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.281);
 }
  .login .right-side.right {
-	 right: -40%;
+	 right: -25%;
 	 align-items: flex-end;
 }
  .login .right-side.right:hover {
-	 right: -45%;
+	 right: -30%;
 }
  .login .right-side.left {
 	 right: 40%;
@@ -95,24 +99,24 @@
 }
 
 
-.btn {
+.btnl {
 	font-size: 21px;
 	padding: 5px 20px;
 	border: 0;
-	background-color: #030507;
+	background-color: black;
 	color: #fff;
 	border-radius: 3px;
 	transition: all 250ms ease-in-out;
 	cursor: pointer;
 }
-.btn:hover {
-	background-color: #020608;
+.btnl:hover {
+	background-color: #516772;
 }
-.btn:focus {
+.btnl:focus {
 	outline: none;
 }
 
- 
+
   
  
  

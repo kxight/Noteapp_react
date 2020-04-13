@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import * as ReactBootStrap from "react-bootstrap";
-import logo from "./logo3.png" ;
+import logo from "../Navbar/logo2.png" ;
 
 export default class index extends Component {
     render() {
         return (
             <div>
-                 <ReactBootStrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                 <ReactBootStrap.Navbar collapseOnSelect expand="lg" bg="" variant="dark">
     <ReactBootStrap.Navbar.Brand href="/home">
       <img
         alt=""
@@ -26,9 +26,11 @@ export default class index extends Component {
       
     </ReactBootStrap.Nav>
     <ReactBootStrap.Nav>
-  
+    
+      
       <ReactBootStrap.NavDropdown title="Profile" id="collasible-ReactBootStrap.Nav-dropdown">
         <ReactBootStrap.NavDropdown.Item href="/profile">My Profile</ReactBootStrap.NavDropdown.Item>
+        
         <ReactBootStrap.NavDropdown.Divider />
         <ReactBootStrap.NavDropdown.Item href="/">Logout</ReactBootStrap.NavDropdown.Item>
       </ReactBootStrap.NavDropdown>
@@ -41,4 +43,3 @@ export default class index extends Component {
         )
     }
 }
-
